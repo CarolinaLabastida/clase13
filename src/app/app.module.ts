@@ -3,10 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { DashboardModule } from './dashboard/dashboard.module';
+// import { DashboardModule } from './dashboard/dashboard.module';
 import { AppRoutingModule } from './app-routing.module';
 import { CoreModule } from './core/core.module';
-import { CursosModule } from './dashboard/pages/cursos/cursos.module';
+// import { CursosModule } from './dashboard/pages/cursos/cursos.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +16,7 @@ import { CursosModule } from './dashboard/pages/cursos/cursos.module';
     BrowserModule,
     BrowserAnimationsModule,
     CoreModule,
-    DashboardModule,
+    // DashboardModule,
     AppRoutingModule,
   ],
   providers: [],

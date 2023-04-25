@@ -5,12 +5,12 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
-import { AlumnosModule } from './pages/alumnos/alumnos.module';
+// import { AlumnosModule } from './pages/alumnos/alumnos.module';
 import { RouterModule } from '@angular/router';
 import { MatListModule } from '@angular/material/list';
 import { CursosModule } from './pages/cursos/cursos.module';
-import { AlumnosComponent } from './pages/alumnos/alumnos.component';
-import { AlumnoDetalleComponent } from './pages/alumnos/pages/alumno-detalle/alumno-detalle.component';
+// import { AlumnosComponent } from './pages/alumnos/alumnos.component';
+// import { AlumnoDetalleComponent } from './pages/alumnos/pages/alumno-detalle/alumno-detalle.component';
 import { CursosComponent } from './pages/cursos/cursos.component';
 
 @NgModule({
@@ -25,7 +25,7 @@ import { CursosComponent } from './pages/cursos/cursos.component';
     MatIconModule,
     MatButtonModule,
     MatListModule,
-    AlumnosModule,
+    // AlumnosModule,
     CursosModule,
     RouterModule.forChild([
       {
